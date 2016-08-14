@@ -17,7 +17,7 @@
       .state('map.view', {
         url: '/map',
         templateUrl: 'modules/map/client/views/map.client.view.html',
-        controller: 'mapController',
+        controller: 'MapController',
         controllerAs: 'vm',
         data: {
           pageTitle: 'Map'

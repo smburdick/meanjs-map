@@ -2,7 +2,7 @@
   'use strict';
   angular
       .module('map')
-      .controller('mapController', mapController)
+      .controller('MapController', MapController)
       .config(function(uiGmapGoogleMapApiProvider) {
         uiGmapGoogleMapApiProvider.configure({
           key: 'AIzaSyCVWrnLFtqpyynJwujU041GgQyDlH3PEsE',
@@ -11,9 +11,9 @@
         });
       });
 
-  mapController.$inject = ['$scope'];
+  MapController.$inject = ['$scope'];
 
-  function mapController($scope) {
+  function MapController($scope) {
     $scope.map = {
       // University of Puget Sound
       center: {

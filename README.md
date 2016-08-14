@@ -23,7 +23,7 @@ module.exports = {
 ```
 Add to `bower.json`:
 ```
-  dependencies: {
+  "dependencies": {
     ...
     "angular-google-maps": "^2.3.2"
   },
