@@ -21,12 +21,11 @@ module.exports = {
     }
 };
 ```
-Add the following dependencies to `package.json`:
-```
-    "angular-google-maps": "^2.3.2",
-    "angular-simple-logger": "^0.1.7",
-```
 Add to `bower.json`:
 ```
-"angular-google-maps": "^2.3.2"
+  dependencies: {
+    ...
+    "angular-google-maps": "^2.3.2"
+  },
+  ...
 ```
