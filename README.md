@@ -1,7 +1,7 @@
-## meanjs-map
+# meanjs-map
 This module is intended for those who wish to embed Google Maps into their MEAN.js app.
 We will be using [Angular Google Maps](http://angular-ui.github.io/angular-google-maps/#!/)
-# Setup
+## Setup
 Download this repo as a .zip file and add the files to `modules\map`. Then execute:
 ```
 bower install angular-google-maps
@@ -20,4 +20,13 @@ module.exports = {
         ...
     }
 };
+```
+Add the following dependencies to `package.json`:
+```
+    "angular-google-maps": "^2.3.2",
+    "angular-simple-logger": "^0.1.7",
+```
+Add to `bower.json`:
+```
+"angular-google-maps": "^2.3.2"
 ```
