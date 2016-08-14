@@ -15,11 +15,12 @@
 
   function mapController($scope) {
     $scope.map = {
-      center: { // University of Puget Sound
+      // University of Puget Sound
+      center: {
         latitude: 47.2623,
         longitude: -122.4816
       },
-      zoom: 8
+      zoom: 15
     };
   }
 
