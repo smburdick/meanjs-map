@@ -4,7 +4,7 @@ We will be using [Angular Google Maps](http://angular-ui.github.io/angular-googl
 ## Setup
 Download this repo as a .zip file and add the files to `modules\map`. Then execute:
 ```
-bower install angular-google-maps
+bower install --save angular-google-maps
 ```
 In `config\assets\default.js` add these 3 references to the `module.exports.client.js` array like so:
 ```
@@ -20,12 +20,4 @@ module.exports = {
         ...
     }
 };
-```
-Add to `bower.json`:
-```
-  "dependencies": {
-    ...
-    "angular-google-maps": "^2.3.2"
-  },
-  ...
 ```
